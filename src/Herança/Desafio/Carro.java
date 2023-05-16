@@ -3,12 +3,12 @@ package Herança.Desafio;
 public class Carro {
     int velA = 0;
 
-    public int acelerar() {
+    protected int acelerar() {
         velA += 10;
         return velA;
     }
 
-    public int frear() {
+    protected int frear() {
         if (velA >= 10) {
             velA -= 10;
             return velA;

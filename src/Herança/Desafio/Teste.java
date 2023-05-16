@@ -13,5 +13,7 @@ public class Teste {
         c2.acelerar();
         c2.acelerar();
         System.out.println("Ferrari "+c2.velA);
+        c2.frear();
+        System.out.println("Ferrari "+c2.velA);
     }
 }

@@ -5,6 +5,10 @@ public class Ferrari extends Carro{
         velA += 30;
         return velA;
     }
+    public int frear(){
+        velA-=30;
+        return velA;
+    }
 
 
 }
